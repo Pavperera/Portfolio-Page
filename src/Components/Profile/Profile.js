@@ -10,8 +10,7 @@ export default function Profile() {
             Paviru Perera
           </p>
           <p class=" font-semibold pb-6 text-gray-500 lg:mb-2 md:text-2xl lg:text-2xl dark:text-gray-400">
-            Aspiring Technology Consultant, Strategic Business Caser, Computer
-            Science Student
+            Aspiring Technology Consultant, Strategic Business Caser, Renaissance Engineering Scholar
           </p>
 
           <a
