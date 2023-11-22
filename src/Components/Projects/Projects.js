@@ -11,7 +11,7 @@ export default function Projects() {
       <div class="container mx-auto space-y-12">
         <div class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
           <img
-            src="ConciegeApp.jpg"
+            src={process.env.PUBLIC_URL + '/ConciergeApp.jpg'}
             alt=""
             class="h-80 dark:bg-gray-500 aspect-video"
           ></img>
@@ -27,8 +27,8 @@ export default function Projects() {
 
         <div class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
           <img
-            src="SPDC.jpg"
-            alt=""
+            src={process.env.PUBLIC_URL + '/SPDC.jpg'}
+            alt="SPDC"
             class="h-80 dark:bg-gray-500 aspect-video"
           ></img>
           <div class="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
